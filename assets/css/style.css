@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #e3c39c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+.name-desc-btn {
+    width: 530px;
+}
+.name-desc-btn h1 {
+    font-size: 50px;
+    font-family: arial;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.name-desc-btn p {
+    font-size: 15px;
+    font-family: arial;
+    margin-bottom: 30px;
+}
+.caixa {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.nome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    width: 400px;
+    height: 700px;
+}
+
+button {
+    background-color: black;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    padding: 20px;
+    margin: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    border-radius: 3px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100px;
+}
+button:hover {
+    background: #fff;
+    color: #000;
+}
+.active {
+    background: #fff;
+    color: #000;
+    cursor: not-allowed;
+}
+h1 {
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.naruto {
+    background-image: url("../imagens/naruto.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+button.naruto {
+    background: #fff;
+    color: #000;
+}
+.sasuke {
+    background-image: url("../imagens/sasuke.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sakura {
+    background-image: url("../imagens/sakura.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.jiraiya {
+    background-image: url("../imagens/jiraiya.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.kakashi {
+    background-image: url("../imagens/kakashi.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.itachi {
+    background-image: url("../imagens/itachi.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.hinata {
+    background-image: url("../imagens/hinata.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+}
+.orochi {
+    background-image: url("../imagens/orochimaru.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.pain {
+    background-image: url("../imagens/nagato.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+}
+/* ESTILOS PARA TABLET */
+@media only screen and (min-width: 831px) and (max-width: 979px) {
+    .nome {
+        height: 600px;
+    }
+    #name {
+        font-size: 30px;
+    }
+    #desc {
+        width: 460px;
+        word-wrap: break-word;
+    }
+}
+
+/* ESTILOS PARA SMARTPHONE */
+@media only screen and (max-width: 830px) {
+    .caixa {
+        grid-template-columns: 1fr;
+    }
+    .nome {
+        height: 400px;
+    }
+    #name {
+        font-size: 30px;
+    }
+    #desc {
+        width: 400px;
+    }
+    #buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
