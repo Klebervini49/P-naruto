@@ -11,7 +11,6 @@ let personagens = [{
     desc: '<b>Sasuke Uchiha</b> é um ninja de pele clara que tem olhos ônix e cabelos preto na altura do queixo. Seu cabelo é espetado nas costas com franjas que crescem com o avançar da história. Quando criança, sua franja ficava pendurada acima de seus olhos.',
     img: 'https://klebervini49.github.io/p-naruto/imagens/sasuke.png',
     alt: 'Imagem personagem Sasuke Uchiha',
-
 },
 {
     id: 3,
