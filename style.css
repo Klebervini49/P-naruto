@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e3c39c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caixa {
+    display: flex;
+    margin: 15px;
+}
+
+.name-desc-btn h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.name-desc-btn p {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.imagemPersonagem {
+    width: 200px;
+    height: 500px;
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    background-color: black;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    padding: 20px;
+    margin: 2px 0;
+    text-transform: uppercase;
+    border-radius: 3px;
+    width: 100px;
+}
+
+button:hover {
+    background: #fff;
+    color: #000;
+}
+
+.active {
+    background: #fff;
+    color: #000;
+    cursor: not-allowed;
+}
+
+h1 {
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#desc {
+    max-width: 500px;
+}
+
+@media only screen and (min-width: 831px) and (max-width: 979px) {
+    #name {
+        font-size: 30px;
+    }
+}
+
+/* ESTILOS PARA SMARTPHONE */
+@media only screen and (max-width: 830px) {
+    #name {
+        font-size: 24px;
+    }
+}
