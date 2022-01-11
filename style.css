@@ -17,7 +17,7 @@ body {
 }
 
 .name-desc-btn h1 {
-    font-size: 50px;
+    font-size: 40px;
     text-transform: uppercase;
     margin-bottom: 10px;
 }
@@ -71,23 +71,40 @@ h1 {
 
 @media only screen and (min-width: 831px) and (max-width: 979px) {
     #name {
-        font-size: 30px;
+        font-size: 35px;
     }
 }
 
 /* ESTILOS PARA SMARTPHONE */
 @media only screen and (max-width: 830px) {
-    #name {
-        font-size: 24px;
-    }
-
     .caixa {
         flex-direction: column;
     }
+    img{
+        max-width: 160px;
+    }
 }
-
 @media only screen and (max-width: 430px) {
+    #name {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #desc{
+        text-align: center;
+        
+    }
     .caixa {
+        align-items: center;
         flex-direction: column-reverse;
+        display: flex;
+        margin-top: 40px;
+    }
+    #buttons{
+        margin-bottom: 20px;
+    }
+
+    img{
+        max-width: 120px;
     }
 }
